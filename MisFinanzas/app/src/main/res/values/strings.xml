@@ -1,0 +1,62 @@
+<resources>
+    <!-- Nombre de la app (marca, no se traduce) -->
+    <string name="app_name" translatable="false">Savingly</string>
+
+    <!-- Pestañas de navegación -->
+    <string name="tab_inicio">Inicio</string>
+    <string name="tab_gastos">Gastos</string>
+    <string name="tab_ahorros">Ahorros</string>
+    <string name="tab_colecciones">Colecciones</string>
+    <string name="tab_estadisticas">Stats</string>
+    <string name="tab_compra">Compra</string>
+
+    <!-- Lista de la compra -->
+    <string name="compra_titulo">Lista de la compra</string>
+    <string name="compra_nuevo_item">Añadir</string>
+    <string name="compra_editar_item">Editar producto</string>
+    <string name="compra_compartir">Compartir</string>
+    <string name="compra_compartir_cabecera">Lista de la compra · %1$s</string>
+    <string name="compra_limpiar_comprados">Quitar comprados</string>
+    <string name="compra_pendientes">Pendientes</string>
+    <string name="compra_pendientes_corto">por comprar</string>
+    <string name="compra_comprados">Ya comprados</string>
+    <string name="compra_comprados_corto">comprados</string>
+    <string name="compra_total_estimado">Total estimado</string>
+    <string name="compra_sin_precio">Sin precios estimados</string>
+    <string name="compra_vacio_titulo">Lista vacía</string>
+    <string name="compra_vacio_descripcion">Apunta lo que necesitas comprar y compártelo con quien quieras desde el botón de compartir</string>
+    <string name="compra_label_nombre">Nombre del producto</string>
+    <string name="compra_label_cantidad">Cantidad</string>
+    <string name="compra_label_unidad">Unidad (kg, L, uds…)</string>
+    <string name="compra_label_categoria">Categoría</string>
+    <string name="compra_label_precio">Precio estimado por unidad</string>
+    <string name="compra_label_urgente">Marcar como urgente</string>
+    <string name="compra_label_notas">Notas (opcional)</string>
+
+    <!-- Visor 3D de cartas (CartaHoloViewer) -->
+    <string name="holo_foil_on">Foil</string>
+    <string name="holo_foil_off">Sin foil</string>
+    <string name="holo_loading">Cargando…</string>
+    <string name="holo_no_image">Sin imagen</string>
+    <string name="holo_hint">Desliza horizontal para voltear · toca fuera para cerrar</string>
+    <string name="holo_collection_label">· COLECCIÓN ·</string>
+
+    <!-- Cuenta de Ahorro -->
+    <string name="cuenta_ahorro_titulo">Cuenta de Ahorro</string>
+    <string name="cuenta_ahorro_total">Total</string>
+    <string name="cuenta_ahorro_saldo_inicial">Saldo inicial</string>
+    <string name="cuenta_ahorro_acumulado">Acumulado</string>
+    <string name="cuenta_ahorro_explicacion">Lo que ya tenías + lo no gastado se acumula aquí</string>
+    <string name="cuenta_ahorro_editar">Editar saldo inicial</string>
+    <string name="cuenta_ahorro_dialogo_titulo">Saldo inicial</string>
+    <string name="cuenta_ahorro_dialogo_descripcion">Apunta cuánto ya tienes ahorrado fuera de la app. Los ingresos y gastos que registres se sumarán y restarán automáticamente.</string>
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_cancelar">Cancelar</string>
+
+    <!-- Animaciones de celebración -->
+    <string name="celebracion_ingreso">Nuevo ingreso</string>
+    <string name="celebracion_gasto">Gasto registrado</string>
+    <string name="celebracion_coleccion_creada">Nueva colección</string>
+    <string name="celebracion_coleccion_eliminada">Colección eliminada</string>
+    <string name="celebracion_item_conseguido">¡Conseguido!</string>
+</resources>

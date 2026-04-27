@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew compileDebugKotlin)",
+      "PowerShell($java = Get-Command java -ErrorAction SilentlyContinue; if \\($java\\) { Write-Output $java.Source } else { Write-Output \"no java\" }; if \\($env:JAVA_HOME\\) { Write-Output \"JAVA_HOME=$env:JAVA_HOME\" } else { Write-Output \"no JAVA_HOME\" })",
+      "Bash(export JAVA_HOME=\"/c/Program Files/Android/Android Studio/jbr\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")"
+    ]
+  }
+}

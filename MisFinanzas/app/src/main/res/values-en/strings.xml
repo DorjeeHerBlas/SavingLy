@@ -1,0 +1,62 @@
+<resources>
+    <!-- App name (brand, not translated) -->
+    <string name="app_name" translatable="false">Savingly</string>
+
+    <!-- Navigation tabs -->
+    <string name="tab_inicio">Home</string>
+    <string name="tab_gastos">Expenses</string>
+    <string name="tab_ahorros">Savings</string>
+    <string name="tab_colecciones">Collections</string>
+    <string name="tab_estadisticas">Stats</string>
+    <string name="tab_compra">Shopping</string>
+
+    <!-- Shopping list -->
+    <string name="compra_titulo">Shopping list</string>
+    <string name="compra_nuevo_item">Add</string>
+    <string name="compra_editar_item">Edit item</string>
+    <string name="compra_compartir">Share</string>
+    <string name="compra_compartir_cabecera">Shopping list · %1$s</string>
+    <string name="compra_limpiar_comprados">Clear purchased</string>
+    <string name="compra_pendientes">To buy</string>
+    <string name="compra_pendientes_corto">to buy</string>
+    <string name="compra_comprados">Purchased</string>
+    <string name="compra_comprados_corto">bought</string>
+    <string name="compra_total_estimado">Estimated total</string>
+    <string name="compra_sin_precio">No price estimates</string>
+    <string name="compra_vacio_titulo">Empty list</string>
+    <string name="compra_vacio_descripcion">Add what you need to buy and share it with anyone using the share button</string>
+    <string name="compra_label_nombre">Product name</string>
+    <string name="compra_label_cantidad">Quantity</string>
+    <string name="compra_label_unidad">Unit (kg, L, pcs…)</string>
+    <string name="compra_label_categoria">Category</string>
+    <string name="compra_label_precio">Estimated price per unit</string>
+    <string name="compra_label_urgente">Mark as urgent</string>
+    <string name="compra_label_notas">Notes (optional)</string>
+
+    <!-- 3D card viewer (CartaHoloViewer) -->
+    <string name="holo_foil_on">Foil</string>
+    <string name="holo_foil_off">No foil</string>
+    <string name="holo_loading">Loading…</string>
+    <string name="holo_no_image">No image</string>
+    <string name="holo_hint">Swipe horizontally to flip · tap outside to close</string>
+    <string name="holo_collection_label">· COLLECTION ·</string>
+
+    <!-- Savings Account -->
+    <string name="cuenta_ahorro_titulo">Savings Account</string>
+    <string name="cuenta_ahorro_total">Total</string>
+    <string name="cuenta_ahorro_saldo_inicial">Initial balance</string>
+    <string name="cuenta_ahorro_acumulado">Accrued</string>
+    <string name="cuenta_ahorro_explicacion">What you already had + what you didn\'t spend accumulates here</string>
+    <string name="cuenta_ahorro_editar">Edit initial balance</string>
+    <string name="cuenta_ahorro_dialogo_titulo">Initial balance</string>
+    <string name="cuenta_ahorro_dialogo_descripcion">Enter how much you already have saved outside the app. Any income or expense you log will add or subtract automatically.</string>
+    <string name="accion_guardar">Save</string>
+    <string name="accion_cancelar">Cancel</string>
+
+    <!-- Celebration animations -->
+    <string name="celebracion_ingreso">New income</string>
+    <string name="celebracion_gasto">Expense logged</string>
+    <string name="celebracion_coleccion_creada">New collection</string>
+    <string name="celebracion_coleccion_eliminada">Collection removed</string>
+    <string name="celebracion_item_conseguido">Got it!</string>
+</resources>

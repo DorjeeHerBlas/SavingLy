@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MisFinanzas" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Fondo de la ventana mientras arranca la Activity (sin logo centrado del sistema). -->
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <!-- Android 12+: neutralizamos la splash automática del sistema para que la
+             nuestra (animada en Compose) sea lo primero que ve el usuario. -->
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31">@color/splash_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="31">@android:color/transparent</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="31">1</item>
+    </style>
+</resources>
